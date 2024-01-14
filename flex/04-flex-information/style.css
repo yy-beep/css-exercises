@@ -1,8 +1,3 @@
-/* * {
-  border: 2px dashed red;
-  padding: 5px;
-} */
-
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -30,20 +25,27 @@ img {
   background: #eee;
 }
 
-.title {
+/* SOLUTION */
+/* 
+* {
+  border: 2px dashed red;
+  padding: 5px;
+} */
+
+body {
   text-align: center;
-  padding-bottom: 32px;
 }
 
-div.container {
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1 1 0;
+  max-width: 200px;
 }

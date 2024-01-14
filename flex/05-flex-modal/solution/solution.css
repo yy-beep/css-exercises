@@ -70,13 +70,14 @@ button.cancel {
 
 /* SOLUTION: */
 
+
 .modal {
   display: flex;
   gap: 16px;
   padding: 16px;
 }
 
-.icon {
+/* .icon {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
@@ -92,4 +93,4 @@ button.cancel {
 
 .text {
   margin-bottom: 16px;
-}
+} */
